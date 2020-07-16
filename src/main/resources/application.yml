@@ -1,0 +1,37 @@
+ppt:
+  path:
+    template-path: D:\workspace_learn\SpringCloud-Learning\demo\20200708.pptx
+    newfile-path: D:\ppt\test2.pptx
+  pages:
+    - index: 2
+      type: table
+      header-number: 2
+      if-merge: true
+      merge-start: 0
+      merge-end: 1
+
+
+    - index: 3
+      type: table
+      header-number: 1
+      if-merge: false
+
+    - index: 4
+      type: table
+      header-number: 3
+      if-merge: false
+
+    - index: 5
+      type: picture
+      pic-path: D:\temp\test.jpg
+
+    - index: 7
+      type: table
+      header-number: 1
+      if-merge: false
+
+
+
+
+
+
